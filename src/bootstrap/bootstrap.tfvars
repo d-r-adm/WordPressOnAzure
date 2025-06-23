@@ -1,0 +1,6 @@
+location="eastus"
+resource_group_name="rg-test-state-wp-eus"
+workload_name="wp-state"
+subscription_id="5a05d5fd-a937-4668-9213-71b6370b4d52"
+environment="test"
+naming_convention="{resourceType}-{environment}-{workloadName}-{region}"
