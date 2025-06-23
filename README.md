@@ -1,3 +1,12 @@
+# Order of Operations
+
+Create resource group for the Remote State storage account.
+
+Deploy Bootstrap
+Deploy Foundation
+Deploy Site(s)
+
+
 # Bitnami WordPress On Azure (Terraform)
 
 A deployment of Bitnami's WordPress container image on Azure App Service. Includes Azure Database for MySQL Flexible Server.
