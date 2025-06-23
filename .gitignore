@@ -1,0 +1,10 @@
+/.terraform
+.terraform*
+
+*.tfstate*
+
+*.tfvars
+!trivy.tfvars
+
+backend.tf
+data_remote_state.tf
