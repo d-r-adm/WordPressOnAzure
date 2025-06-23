@@ -2,10 +2,11 @@
 
 Create resource group for the Remote State storage account.
 
-Deploy Bootstrap
-Deploy Foundation
-Deploy Site(s)
+1. Deploy Bootstrap
 
+2. Deploy Foundation
+
+3. Deploy Site(s)
 
 # Bitnami WordPress On Azure (Terraform)
 
