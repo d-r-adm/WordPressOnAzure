@@ -47,9 +47,9 @@ Run `terraform init`. This will create the backend configuration.
 
 When running `terraform [plan|apply]`, you will specify the variables file:
 
-`terraform [plan|apply] -var-file="vars.math.tfvars"`
+`terraform [plan|apply] -var-file="site_template.tfvars"`
 
-This will create a state file with a name like `site.tfstateenv:math
+This will create a state file with a name like `site.tfstateenv:site_template
 
 ### Site n
 
