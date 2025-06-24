@@ -3,10 +3,14 @@
 Create resource group for the Remote State storage account.
 
 1. Deploy Bootstrap
+    Use bootstrap.tfvars
 
 2. Deploy Foundation
+    Use foundation.tfvars
 
 3. Deploy Site(s)
+    Use Workspace for each site
+    Use the specific site_template.tfvars modified for the site.
 
 # Bitnami WordPress On Azure (Terraform)
 
