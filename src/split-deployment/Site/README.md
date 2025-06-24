@@ -25,17 +25,19 @@ Assume your first WordPress site is for the *math* department.
 Create a variables file, if desired. The name is entirely up to you, but you might want to organize them where the filename matches the value you'll use for the `site_name` variable:
 
 ```hcl
-# File: vars.math.tfvars
+# File: site_template.tfvars
 
-site_name                   = "math"
+environment = "{environment}"
+location = "{location}"
+secret_expiration_date_seed = "{secret_expiration_date_seed}"
+site_name = "{site_name}"
+use_foundation_remote_state = true
+subscription_id = "{subscriptionId}"
+naming_convention = "{workloadName}"
 
 # This will use the outputs from the remote Terraform state of the Foundation deployment as input values
 # If set to false, all output values from the Foundation deployment will need to be specified as variables here.
 use_foundation_remote_state = true
-
-# ...
-# Specify more variables here
-```
 
 For consistency, you should not use the Terraform *default* workspace. Each site will get a named workspace.
 
