@@ -85,9 +85,9 @@ module "appservice" {
 
     WORDPRESS_ENABLE_HTTPS = "no" // App Service should not use end-to-end TLS between the frontend and the instance anyway
     WORDPRESS_BLOG_NAME    = "${var.environment} Site"
-    WORDPRESS_EMAIL        = "sven@aelterman.cloud"
-    WORDPRESS_FIRST_NAME   = "Sven"
-    WORDPRESS_LAST_NAME    = "Aelterman"
+    WORDPRESS_EMAIL        = "dgshue@uncg.edu"
+    WORDPRESS_FIRST_NAME   = "Daniel"
+    WORDPRESS_LAST_NAME    = "Shue"
   }
 
   // Mount storage for wordpress_data:/bitnami/wordpress
