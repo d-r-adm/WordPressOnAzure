@@ -57,7 +57,7 @@ module "appservice" {
 
     WORDPRESS_ENABLE_HTTPS = "no" // App Service should not use end-to-end TLS between the frontend and the instance anyway
     WORDPRESS_BLOG_NAME    = "${var.site_name} ${var.environment} Site"
-    WORDPRESS_EMAIL        = "dgshiue@uncg.edu"
+    WORDPRESS_EMAIL        = "dgshue@uncg.edu"
     WORDPRESS_FIRST_NAME   = "Daniel"
     WORDPRESS_LAST_NAME    = "Shue"
   }
