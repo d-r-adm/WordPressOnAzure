@@ -1,4 +1,4 @@
-environment = "prd"
+environment = "p"
 location = "eastus"
 secret_expiration_date_seed = "2025-06-27T23:59:59Z"
 site_name = "educationforward"

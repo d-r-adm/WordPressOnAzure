@@ -2,6 +2,8 @@
 
 Create resource group for the Remote State storage account.
 
+	rg-X-state-wp-eus
+
 1. Deploy Bootstrap
     Use bootstrap.tfvars
 
